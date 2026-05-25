@@ -10,13 +10,7 @@ router.post('/register', async (req, res) => {
     return res.status(400).json({ message: 'Username and password are required.' });
   }
 
-  // Strong password validation: min 8 chars, uppercase, lowercase, number, special char
-  const strongPassword = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
-  if (!strongPassword.test(password)) {
-    return res.status(400).json({
-      message: 'Password must be at least 8 characters and include uppercase, lowercase, number, and special character.'
-    });
-  }
+
 
   try {
     // Check for duplicate username
