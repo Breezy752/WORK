@@ -4,7 +4,6 @@ import { AuthProvider } from './context/AuthContext';
 import ProtectedRoute from './components/ProtectedRoute';
 import Layout from './components/Layout';
 import Login from './pages/Login';
-import Register from './pages/Register';
 import Employees from './pages/Employees';
 import Departments from './pages/Departments';
 import Salaries from './pages/Salaries';
@@ -17,7 +16,6 @@ function App() {
         <Routes>
           {/* Public routes */}
           <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
 
           {/* Protected routes */}
           <Route path="/employees" element={

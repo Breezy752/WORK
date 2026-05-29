@@ -1,6 +1,0 @@
-@import "tailwindcss";
-
-@media print {
-  aside { display: none !important; }
-  main { padding: 0 !important; }
-}

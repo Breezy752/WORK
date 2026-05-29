@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
         {children}
       </main>
       <footer className="text-center text-xs py-4" style={{background: '#0a0a0a', borderTop: '1px solid #f97316', color: '#6b7280'}}>
-        © 2025 <span style={{color: '#f97316'}}>SmartPark EPMS</span> — Rubavu District, Western Province, Rwanda
+        © 2025 <span style={{color: '#f97316'}}>SmartPark EPMS</span>
       </footer>
     </div>
   );

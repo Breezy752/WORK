@@ -74,7 +74,6 @@ const Reports = () => {
       {/* Print header */}
       <div className="hidden print:block text-center mb-6">
         <h2 className="text-xl font-bold">SmartPark — Employee Payroll Management System</h2>
-        <p className="text-sm text-gray-600">Rubavu District, Western Province, Rwanda</p>
         <p className="text-sm font-semibold mt-1">Monthly Payroll Report {month ? `— ${month}` : '(All Months)'}</p>
       </div>
 

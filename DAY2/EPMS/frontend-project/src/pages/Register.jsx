@@ -44,7 +44,7 @@ const Register = () => {
               </svg>
             </div>
             <h1 className="text-2xl font-bold text-white">Create Account</h1>
-            <p className="text-sm mt-1" style={{color: '#f97316'}}>SmartPark EPMS — Register</p>
+
           </div>
 
           {/* Form */}
